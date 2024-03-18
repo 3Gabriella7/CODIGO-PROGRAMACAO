@@ -1,0 +1,17 @@
+Var
+// Seção de Declarações das variáveis
+total: inteiro
+idade:inteiro
+x: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ Para x de 1 ate 5 faca
+   ESCREVAL ("Qual sua idade? ")
+  LEIA (idade)
+  TOTAL <- total + idade
+Fimpara
+ESCREVAL("TOTAL GERAL = " , TOTAL)
+
+Fimalgoritmo
