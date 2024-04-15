@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+     $mês = prompt ("digite um mês do ano:")
+    switch ($mês) 
+
+    {
+        case "dezembro": 
+        case "janeiro" :
+        case "fevereiro" :
+            document.write ("verão")
+            break;
+
+        case "março" :
+        case "abril" :
+        case "maio" :
+            document.write ("outono")
+            break;
+
+        case "junho" :
+        case "julho" :
+        case "agosto" :
+            document.write ("inverno")
+            break;
+
+        case "setembro" :
+        case "outubro" :
+        case "novembro" :
+            document.write ("primavera")
+            break;
+            
+        default:  
+        document.write ("Opcão Inválida")
+        break;
+    
+    }
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
