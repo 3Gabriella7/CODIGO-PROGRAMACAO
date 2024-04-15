@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+     $dia_de_semana = prompt ("digite um dia de semana:")
+    switch ($dia_de_semana) 
+
+    {
+        case "segunda" :
+        case "terca" :
+        case "quarta" :
+        case "quinta" :
+        case "sexta" :
+            document.write ("dia de semana");
+            break;
+
+        case "sabado" :
+        case "domingo" :
+            document.write ("final de semana");
+            break;
+
+        default:  
+        document.write ("Opcão Inválida")
+        break;
+            
+    
+    }
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
