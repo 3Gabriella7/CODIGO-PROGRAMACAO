@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+    $numero = prompt("escolha um numero de 1 a 4") 
+
+    switch ($numero) {
+        case "1":
+            document.write("<img src ='/IMG/bolsa.png' width = '30%'>")
+            
+            break;
+        case "2":
+            document.write("<img src ='/IMG/dinheiro.png' width = '30%'>")
+            
+            break;
+        case "3":
+            document.write("<img src ='/IMG/pulseira.png' width = '30%'>")
+            
+            break;
+        case "4":
+            document.write("<img src ='/IMG/roxinho.webp' width = '30%'>")
+            
+            break;
+        
+    }
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>
